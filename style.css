@@ -1,0 +1,384 @@
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.bg-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(12px) brightness(0.8);
+  transform: scale(1.1);
+}
+
+.title {
+  color: white;
+  text-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+
+/*
+ 1기
+*/
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: #f6f7fb;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.card {
+  text-decoration: none;
+  color: inherit;
+  width: 260px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(255, 64, 182, 0.327);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 16px 35px rgb(255, 18, 160);
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card h2 {
+  margin: 15px 0 5px;
+}
+
+.card p {
+  color: #666;
+  font-size: 14px;
+
+}
+
+/*
+ 2기
+*/
+
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: #f6f7fb;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.card2 {
+  width: 260px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card2:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 16px 35px rgb(0, 0, 0, 0.25);
+}
+
+.card2-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card2 h2 {
+  margin: 15px 0 5px;
+}
+
+.card2 p {
+  color: #666;
+  font-size: 14px;
+  
+}
+
+/*
+ 3기
+*/
+
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: #f6f7fb;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.card3 {
+  width: 260px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card3:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 16px 35px rgb(0, 0, 0, 0.25);
+}
+
+.card3-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card3 h2 {
+  margin: 15px 0 5px;
+}
+
+.card3 p {
+  color: #666;
+  font-size: 14px;
+  
+}
+
+/*
+ 4기
+*/
+
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: #f6f7fb;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.card4 {
+  width: 260px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card4:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 16px 35px rgb(0, 0, 0, 0.25);
+}
+
+.card4-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card4 h2 {
+  margin: 15px 0 5px;
+}
+
+.card4 p {
+  color: #666;
+  font-size: 14px;
+  
+}
+
+/*
+ 5기
+*/
+
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: #f6f7fb;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.card5 {
+  width: 260px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card5:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 16px 35px rgb(0, 0, 0, 0.25);
+}
+
+.card5-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card5 h2 {
+  margin: 15px 0 5px;
+}
+
+.card5 p {
+  color: #666;
+  font-size: 14px;
+  
+}
+
+/*
+ 6기
+*/
+
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: #f6f7fb;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.card6 {
+  width: 260px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card6:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 16px 35px rgb(0, 0, 0, 0.25);
+}
+
+.card6-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card6 h2 {
+  margin: 15px 0 5px;
+}
+
+.card6 p {
+  color: #666;
+  font-size: 14px;
+  
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+/*
+  캐치 티니핑 채널
+*/
+
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: #f6f7fb;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.Teenieping_ch {
+  width: 400px;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(255, 0, 0, 0.227);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Teenieping_ch:hover {
+  transform: translateY(0px) scale(1.03);
+  background: linear-gradient(to bottom, rgba(230, 135, 234, 0.8), rgba(255, 255, 255, 0.8));
+  box-shadow: 0 16px 35px rgb(255, 0, 0);
+}
+
+.Teenieping_ch-img {
+  width: 35%;
+  border-radius: 190px;
+}
+
+.Teenieping_ch h2 {
+  margin: 15px 0 5px;
+}
+
+.Teenieping_ch p {
+  color: #666;
+  font-size: 14px;
+  
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Teenieping_ch {
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.Teenieping_ch:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+.footer p {
+  color: white;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
